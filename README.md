@@ -30,3 +30,7 @@ Install the dependencies and devDependencies and start the server.
 npm install
 npm run dev
 ```
+
+The HTML is located under /resources/views
+
+The JS for the API connection is located under /resources/js/app.js
