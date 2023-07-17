@@ -1,5 +1,15 @@
 <div x-data="fetch" x-init="getUsers">
     <div class="relative overflow-x-auto max-w-fit m-auto flex flex-col align-center" x-show="users">
+        <label>
+            <input
+                x-model="search"
+                @keyup.enter="filter(search)"
+                placeholder="Search users"
+                type="text"
+                class="block w-full rounded bg-gray-200 p-4 mb-4"
+            />
+        </label>
+    
         <table class="m-auto">
             <thead class="bg-secondary text-purple font-ubuntu">
                 <tr>

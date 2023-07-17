@@ -33,4 +33,4 @@ npm run dev
 
 The HTML is located under /resources/views
 
-The JS for the API connection is located under /resources/js/app.js
+The JS for the API connection is located under /resources/js/app.ts
